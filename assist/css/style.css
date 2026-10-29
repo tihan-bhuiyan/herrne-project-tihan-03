@@ -123,7 +123,11 @@ img{
 }
 .headerMenu ul li a{
     position: relative;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 829f1a6ebe543f1cd702eb099c2481b2722ad76f
 .headerMenu ul li:first-child a{
   padding-left: 0;
 }
@@ -131,7 +135,11 @@ img{
     content: "";
     display: block;
     clear: both;
+<<<<<<< HEAD
     position: absolute; 
+=======
+    position: absolute;
+>>>>>>> 829f1a6ebe543f1cd702eb099c2481b2722ad76f
     width: 30px;
     height: 30px;
     object-fit: cover;
@@ -144,7 +152,11 @@ img{
 }
 header#header {
     padding-top: 30px;
+<<<<<<< HEAD
     /* position: fixed; */
+=======
+    position: fixed;
+>>>>>>> 829f1a6ebe543f1cd702eb099c2481b2722ad76f
     top: 0;
     width: 100%;
     background-color: #ffd16e;
@@ -160,7 +172,11 @@ div#baricons {
 #BannerSection1st{
     background-color: var(--kachaholod);
     padding-bottom: 10px;
+<<<<<<< HEAD
     /* padding-top: 125px; */
+=======
+    padding-top: 125px;
+>>>>>>> 829f1a6ebe543f1cd702eb099c2481b2722ad76f
 }
 .bannerRow {
     align-items: center;
@@ -323,10 +339,14 @@ div#baricons {
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
+<<<<<<< HEAD
     color: #fff;
     &:hover{
         color: #F2A90C;
     }
+=======
+    color: #FFFFFF;
+>>>>>>> 829f1a6ebe543f1cd702eb099c2481b2722ad76f
 }
 .footermid {
     display: grid;
@@ -353,6 +373,7 @@ div#baricons {
     width: 20px;
     height: 20px;
     text-align: center;
+<<<<<<< HEAD
     
 }
 .social-box a:nth-child(1):hover{
@@ -372,6 +393,9 @@ div#baricons {
         border-color: #03c41d;
 }   
 
+=======
+}
+>>>>>>> 829f1a6ebe543f1cd702eb099c2481b2722ad76f
 .social-box {
     display: flex;
     justify-content: flex-end;

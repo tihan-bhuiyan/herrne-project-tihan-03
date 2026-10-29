@@ -121,9 +121,9 @@ img{
     justify-content: flex-end;
     align-items: center;
 }
-/* .headerMenu ul li a{
+.headerMenu ul li a{
     position: relative;
-} */
+} 
 .headerMenu ul li:first-child a{
   padding-left: 0;
 }
@@ -131,7 +131,7 @@ img{
     content: "";
     display: block;
     clear: both;
-    /* position: absolute; */
+    position: absolute; 
     width: 30px;
     height: 30px;
     object-fit: cover;
@@ -144,7 +144,7 @@ img{
 }
 header#header {
     padding-top: 30px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     background-color: #ffd16e;
@@ -160,7 +160,7 @@ div#baricons {
 #BannerSection1st{
     background-color: var(--kachaholod);
     padding-bottom: 10px;
-    padding-top: 125px;
+    /* padding-top: 125px; */
 }
 .bannerRow {
     align-items: center;

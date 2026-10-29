@@ -1,0 +1,150 @@
+
+@media only screen and (max-width: 1200px){
+    header#header {
+        position: inherit;
+    }
+    section#BannerSection1st {
+        padding-top: 50px;
+    }
+    .bannerRow h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .footermid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 37px;
+    }
+    
+}
+@media only screen and (max-width: 992px){
+    .headerMenu nav {
+        display: none;
+    } 
+    #baricons{
+        display: block;
+    }
+    #products ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .dogimg ul {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #allfur ul img {
+        width: 100%;
+    }
+    .footerTop {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+    .SUBSCRIBEbox {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .SUBSCRIBEbox input {
+        width: 70%;
+        height: auto;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .SUBSCRIBEbox button {
+        width: 30%;
+        font-size: 16px;
+        height: auto;
+        padding: 16px;
+    }
+    .colum2 {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+    .home2left {
+        width: 100%;
+        margin-bottom: 27px;
+        gap: 20px;
+    }
+    #home2ndSection {
+        background-image: linear-gradient(180deg,#6FDCFF 40%, #99E7FF 60%);
+    }
+    
+    #home2ndSection h2 {
+        font-size: 25px;
+    }
+    #home2ndSection p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #home2ndSection {
+        padding: 50px;
+    }
+    .home2right img {
+        margin-left: 0;
+        width: 80%;
+      }
+      #teil100 h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footerbottom {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .social-box {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .headerIcon ul li a img {
+        width: 30px;
+        height: 30px;
+    }
+    .logo {
+        max-width: 100px;
+    }
+    .bannerRow h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    a.coderBtn {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    #home2ndSection h2 {
+        font-size: 18px;
+    }
+    .outlineBtn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    #allfur h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #allfur p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #allfur ul img {
+        width: 100%;
+    }
+    .SUBSCRIBEbox {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .SUBSCRIBEbox input, .SUBSCRIBEbox button {
+        width: 100%;
+      }
+      .footermid {
+        grid-template-columns: 1fr;
+    }
+}
